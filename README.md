@@ -63,4 +63,8 @@ print(f'Test Accuracy: {accuracy:.3f}')
 
 **Proposed Changes:**
 
-The activation function sigmoid is a stagnant function and only good for a yes/no detection, hence if there is any indecisiveness in any output from Grover, we would come up with a rather inaccurate answer. Looking at other activation functions like *SoftMax* would be a good way of testing which functions provide for a more accurate model and a smaller error rate. 
+The activation function sigmoid is a logistic function and only good for a yes/no scenarios for a positive or negative detection of a specific element, hence if there is any indecisiveness in any output from Grover (in other words, Grover isn't sure if an article is real or fake), we would come up with a rather inaccurate answer. Looking at other activation functions like *SoftMax* would be a good way of testing which functions provide for a more accurate model and a smaller error rate.
+
+*SoftMax:*
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;y_i=\frac{e^{x_i}}{\sum_{j=1}^ne^{x_j}}" title="\Large y_i=\frac{e^{x_i}}{\sum_{j=1}^ne^{x_j}}" />

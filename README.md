@@ -67,4 +67,13 @@ The activation function sigmoid is a logistic function and only good for a yes/n
 
 *SoftMax:*
 
-$ \Large y_i = \frac{e^{x_i}}{\sum\limits_{j=1}^ne^{x_j}}$
+$y_i = \frac{e^{x_i}}{\sum\limits_{j=1}^ne^{x_j}}$
+
+```
+import numpy as np
+
+def softmax(x):
+    """Compute softmax values for each row of x."""
+    exp_x = np.exp(x)
+    return exp_x / np.sum(exp_x, axis=1, keepdims=True)
+```

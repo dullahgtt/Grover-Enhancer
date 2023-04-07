@@ -60,3 +60,6 @@ model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), batch_s
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 print(f'Test Accuracy: {accuracy:.3f}')
 ```
+
+**Proposed Changes:**
+The activation function sigmoid is a stagnant function and only good for a yes/no detection, hence if there is any indecisiveness in any output from Grover, we would come up with a rather inaccurate answer. Looking at other activation functions like *SoftMax* would be a good way of testing which functions provide for a more accurate model and a smaller error rate. 

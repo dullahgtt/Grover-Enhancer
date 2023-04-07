@@ -88,4 +88,4 @@ To properly train the model for better outcomes, we would need to generate an in
 
 We will utilize a web scraper to locate and collect a large number of articles from reputable sources. We will also generate an equal number of fake articles from various AI models and train the above CNN on the data. 
 
-- In the *Web Scraper* file there is code for scraping the BBC website for articles. This can be modified for other news outlets and will be needed for a diverse dataset.
+- In the *Web Scraper* folder in the *Article Dataset* folder, there is code for scraping the BBC website for articles. This can be modified for other news outlets and will be needed for a diverse dataset.

@@ -8,6 +8,7 @@ In our initial tests, Grover experienced issues in recognizing clearly falsified
 
 Below is a proposed Convolutional Neural Network that could be used to subtitute the AdaFactor Optimization algorithm used by Grover:
 
+'''
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -50,4 +51,4 @@ model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), batch_s
 # Evaluate the model
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 print(f'Test Accuracy: {accuracy:.3f}')
-
+'''

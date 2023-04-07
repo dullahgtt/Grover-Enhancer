@@ -67,4 +67,4 @@ The activation function sigmoid is a logistic function and only good for a yes/n
 
 *SoftMax:*
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;y_i=\frac{e^{x_i}}{\sum_{j=1}^ne^{x_j}}" title="\Large y_i=\frac{e^{x_i}}{\sum_{j=1}^ne^{x_j}}" style="background-color:black; color:white;" />
+$y_i = \frac{e^{x_i}}{\sum\limits_{j=1}^ne^{x_j}}$

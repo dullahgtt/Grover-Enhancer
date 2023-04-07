@@ -1,6 +1,6 @@
 # Grover-Enhancer
 
-**Current Team:** 
+**Team:** 
 - Abdullah Kamal
 - Zaid Jamal
 - Brian Robinson
